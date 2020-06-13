@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK RESET -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- LANDING -->
+        <section class="box-landing">
+            <div class="landing">
+                <h1>Pachaqtec</h1>
+                <p>Hola mi nombre<br>es Antony Ureta</p>
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <div class="box-sobre-mi">
+            <div class="sobre-mi">
+                <h2>Sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse.</p>
+                <button class="btn-ver">Ver CV <i class="fas fa-angle-double-right"></i></button>
+            </div>
+        </div>
+
+        <!-- MIS SKILLS -->
+        <div class="box-skills">
+            <div class="skills">
+                <h2>Mis Skills</h2>
+                <div class="list-skills">
+                    <li>
+                        <p>HTML</p>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>CSS3</p>
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>JAVASCRIPT</p>
+                        <span class="bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>VUE</p>
+                        <span class="bar"><span class="vue"></span></span>
+                    </li>
+                    <li>
+                        <p>FLEXBOX</p>
+                        <span class="bar"><span class="flexbox"></span></span>
+                    </li>
+                    <li>
+                        <p>WORDPRESS</p>
+                        <span class="bar"><span class="wordpress"></span></span>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <!-- PORTAFOLIO -->
+        <div class="box-portafolio">
+            <div class="portafolio">
+                <h2>Portafolio</h2>
+                <figure>
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                    <img src="./img/image-8.png" alt="">
+                </figure>
+            </div>
+        </div>
+
+        <!-- CLIENTES -->
+        <div class="box-clientes">
+            <div class="clientes">
+                <h2>Clientes</h2>
+                <figure>
+                    <img src="./img/image-3.png" alt="">
+                    <img src="./img/image-3.png" alt="">
+                    <img src="./img/image-3.png" alt="">
+                    <img src="./img/image-3.png" alt="">
+                </figure>
+            </div>
+        </div>
+            
+        <!-- CONTACTO -->
+        <div class="container-contact">
+            <div class="contact">
+                <p class="title">FORMULARIO</p>
+                <form class="form" action="" method="GET">
+        
+                    <input class="name" type="text" placeholder="Nombre" required
+                    pattern="[a-zA-Z]+" minlength="3">
+        
+                    <input class="addres" type="text" placeholder="Apellido" required pattern="[a-zA-Z]+" minlength="3">
+        
+                    <input class="edad" type="number" name="" id="" placeholder="Edad"  min="18" max="80" required>
+        
+                    <select class="sex" name="sex" id="">
+                        <option value="">Sexo</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                    </select>
+        
+                    <input class="dni" type="text" name="" id="" placeholder="DNI" pattern="[0-9]{8}" required>
+        
+                    <input class="email" type="email" name="" id="" placeholder="E-mail" required>
+        
+                    <textarea class="message" placeholder="Descripción" required  minlength="5"></textarea>
+        
+                    <div class="check">
+                        <input type="checkbox" name="" id="checkbox" required>
+                        <label for="checkbox">Acepto los <a href="terminos y condiciones">terminos y condiciones</a></label>
+                    </div>
+                    <div class="buttons">
+                        <button class="button">Enviar</button>
+                        <button class="button" type="reset">Reset</button> 
+                    </div>
+                    
+                </form>        
+            </div>
+        </div>
+        <footer>
+            <p>Powered by <a href="antonyur.com">AntonyUr</a></p>
+        </footer>
+    </div>
+</body>
+</html>
