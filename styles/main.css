@@ -119,12 +119,12 @@ body{
     grid-row-gap: 5px;
     margin: 0 auto;
 }
-.list-skills li{
+.list-skills .li{
     width: 403px;
     list-style: none;
     margin-bottom: 25px;
 }
-.list-skills li p{
+.list-skills .li p{
     letter-spacing: 1px;
     margin-bottom: 14px;
 }
